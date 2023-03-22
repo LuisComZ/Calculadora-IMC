@@ -25,14 +25,14 @@
         <input type="number" placeholder="Sua altura" id="altura" />
         <br /><br />
 
-        <button id="calculate">Calcular</button>
+        <button id="calculate" onclick="validate()">Calcular</button>
       </div>
 
       <div class="finalStep">
         <h3>Resultado:</h3>
-        <p id="resultado">...</p>
-        <button>Calcular Novamente</button>
-        <button>Finalizar</button>
+        <p id="resultado"></p>
+        <button onclick="go(3,2)">Calcular Novamente</button>
+        <button onclick="go(3,1)">Finalizar</button>
       </div>
     </div>
     <script src="script.js"></script>
