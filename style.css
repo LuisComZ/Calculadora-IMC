@@ -78,3 +78,10 @@ input {
 .secondStep {
   display: none;
 }
+
+@media screen and (max-width: 800px) {
+  input {
+    width: 90%;
+    margin-top: 10px;
+  }
+}
