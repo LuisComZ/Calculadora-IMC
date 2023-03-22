@@ -46,10 +46,6 @@ button:hover {
   background-color: #ffa600;
 }
 
-.firstStep {
-  display: none;
-}
-
 .secondStep {
   text-align: center;
 }
@@ -76,6 +72,10 @@ input {
 }
 
 .secondStep {
+  display: none;
+}
+
+.finalStep {
   display: none;
 }
 
